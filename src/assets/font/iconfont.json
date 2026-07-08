@@ -1,0 +1,86 @@
+{
+  "id": "4815494",
+  "name": "智慧城市",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4354255",
+      "name": "形状-椭圆形",
+      "font_class": "xingzhuang-tuoyuanxing",
+      "unicode": "eb99",
+      "unicode_decimal": 60313
+    },
+    {
+      "icon_id": "10048825",
+      "name": "多边形",
+      "font_class": "duobianxing",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "10048835",
+      "name": "矩形",
+      "font_class": "juxing",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "17581689",
+      "name": "线",
+      "font_class": "xian",
+      "unicode": "ec5f",
+      "unicode_decimal": 60511
+    },
+    {
+      "icon_id": "658012",
+      "name": "飞机",
+      "font_class": "feiji",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "2675116",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "5387376",
+      "name": "尺子",
+      "font_class": "chizi",
+      "unicode": "eabd",
+      "unicode_decimal": 60093
+    },
+    {
+      "icon_id": "5387383",
+      "name": "电脑",
+      "font_class": "diannao",
+      "unicode": "eac0",
+      "unicode_decimal": 60096
+    },
+    {
+      "icon_id": "5387708",
+      "name": "建筑",
+      "font_class": "jianzhu",
+      "unicode": "eb38",
+      "unicode_decimal": 60216
+    },
+    {
+      "icon_id": "42820504",
+      "name": "mti-桥梁",
+      "font_class": "mti-qiaoliang",
+      "unicode": "e8ab",
+      "unicode_decimal": 59563
+    },
+    {
+      "icon_id": "8288831",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e844",
+      "unicode_decimal": 59460
+    }
+  ]
+}

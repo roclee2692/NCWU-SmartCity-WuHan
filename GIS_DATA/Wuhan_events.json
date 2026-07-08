@@ -1,0 +1,841 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0001",
+        "phone": "DEMO_CONTACT_0001",
+        "id": "DEMO_ID_0001",
+        "event_num": "DEMO_EVENT_0001",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.35567,
+          30.592539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0002",
+        "phone": "DEMO_CONTACT_0002",
+        "id": "DEMO_ID_0002",
+        "event_num": "DEMO_EVENT_0002",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.435413,
+          30.545926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0003",
+        "phone": "DEMO_CONTACT_0003",
+        "id": "DEMO_ID_0003",
+        "event_num": "DEMO_EVENT_0003",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.34689,
+          30.545926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0004",
+        "phone": "DEMO_CONTACT_0004",
+        "id": "DEMO_ID_0004",
+        "event_num": "DEMO_EVENT_0004",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.357133,
+          30.49866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0005",
+        "phone": "DEMO_CONTACT_0005",
+        "id": "DEMO_ID_0005",
+        "event_num": "DEMO_EVENT_0005",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.438339,
+          30.610801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0006",
+        "phone": "DEMO_CONTACT_0006",
+        "id": "DEMO_ID_0006",
+        "event_num": "DEMO_EVENT_0006",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.309579,
+          30.481008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0007",
+        "phone": "DEMO_CONTACT_0007",
+        "id": "DEMO_ID_0007",
+        "event_num": "DEMO_EVENT_0007",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.409076,
+          30.460831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0008",
+        "phone": "DEMO_CONTACT_0008",
+        "id": "DEMO_ID_0008",
+        "event_num": "DEMO_EVENT_0008",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.424439,
+          30.521351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0009",
+        "phone": "DEMO_CONTACT_0009",
+        "id": "DEMO_ID_0009",
+        "event_num": "DEMO_EVENT_0009",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.295679,
+          30.578684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0010",
+        "phone": "DEMO_CONTACT_0010",
+        "id": "DEMO_ID_0010",
+        "event_num": "DEMO_EVENT_0010",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.255442,
+          30.571755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0011",
+        "phone": "DEMO_CONTACT_0011",
+        "id": "DEMO_ID_0011",
+        "event_num": "DEMO_EVENT_0011",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.314701,
+          30.62717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0012",
+        "phone": "DEMO_CONTACT_0012",
+        "id": "DEMO_ID_0012",
+        "event_num": "DEMO_EVENT_0012",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22252,
+          30.545296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0013",
+        "phone": "DEMO_CONTACT_0013",
+        "id": "DEMO_ID_0013",
+        "event_num": "DEMO_EVENT_0013",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.273732,
+          30.536475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0014",
+        "phone": "DEMO_CONTACT_0014",
+        "id": "DEMO_ID_0014",
+        "event_num": "DEMO_EVENT_0014",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.237884,
+          30.513788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0015",
+        "phone": "DEMO_CONTACT_0015",
+        "id": "DEMO_ID_0015",
+        "event_num": "DEMO_EVENT_0015",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.19033,
+          30.51883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0016",
+        "phone": "DEMO_CONTACT_0016",
+        "id": "DEMO_ID_0016",
+        "event_num": "DEMO_EVENT_0016",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.226178,
+          30.487313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0017",
+        "phone": "DEMO_CONTACT_0017",
+        "id": "DEMO_ID_0017",
+        "event_num": "DEMO_EVENT_0017",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.403223,
+          30.652977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0018",
+        "phone": "DEMO_CONTACT_0018",
+        "id": "DEMO_ID_0018",
+        "event_num": "DEMO_EVENT_0018",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.363717,
+          30.658641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0019",
+        "phone": "DEMO_CONTACT_0019",
+        "id": "DEMO_ID_0019",
+        "event_num": "DEMO_EVENT_0019",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.387128,
+          30.600726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0020",
+        "phone": "DEMO_CONTACT_0020",
+        "id": "DEMO_ID_0020",
+        "event_num": "DEMO_EVENT_0020",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.280484,
+          30.446326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0021",
+        "phone": "DEMO_CONTACT_0021",
+        "id": "DEMO_ID_0021",
+        "event_num": "DEMO_EVENT_0021",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.390324,
+          30.444517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0022",
+        "phone": "DEMO_CONTACT_0022",
+        "id": "DEMO_ID_0022",
+        "event_num": "DEMO_EVENT_0022",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.443189,
+          30.4482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0023",
+        "phone": "DEMO_CONTACT_0023",
+        "id": "DEMO_ID_0023",
+        "event_num": "DEMO_EVENT_0023",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.423965,
+          30.404457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0024",
+        "phone": "DEMO_CONTACT_0024",
+        "id": "DEMO_ID_0024",
+        "event_num": "DEMO_EVENT_0024",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.472024,
+          30.43577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0025",
+        "phone": "DEMO_CONTACT_0025",
+        "id": "DEMO_ID_0025",
+        "event_num": "DEMO_EVENT_0025",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.474694,
+          30.488701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0026",
+        "phone": "DEMO_CONTACT_0026",
+        "id": "DEMO_ID_0026",
+        "event_num": "DEMO_EVENT_0026",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.388378,
+          30.505577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0027",
+        "phone": "DEMO_CONTACT_0027",
+        "id": "DEMO_ID_0027",
+        "event_num": "DEMO_EVENT_0027",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.416679,
+          30.491774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0028",
+        "phone": "DEMO_CONTACT_0028",
+        "id": "DEMO_ID_0028",
+        "event_num": "DEMO_EVENT_0028",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.490903,
+          30.534557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0029",
+        "phone": "DEMO_CONTACT_0029",
+        "id": "DEMO_ID_0029",
+        "event_num": "DEMO_EVENT_0029",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.491437,
+          30.474747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0030",
+        "phone": "DEMO_CONTACT_0030",
+        "id": "DEMO_ID_0030",
+        "event_num": "DEMO_EVENT_0030",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.516534,
+          30.442067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0031",
+        "phone": "DEMO_CONTACT_0031",
+        "id": "DEMO_ID_0031",
+        "event_num": "DEMO_EVENT_0031",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.468476,
+          30.421808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0032",
+        "phone": "DEMO_CONTACT_0032",
+        "id": "DEMO_ID_0032",
+        "event_num": "DEMO_EVENT_0032",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.419883,
+          30.435621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0033",
+        "phone": "DEMO_CONTACT_0033",
+        "id": "DEMO_ID_0033",
+        "event_num": "DEMO_EVENT_0033",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.211733,
+          30.598762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0034",
+        "phone": "DEMO_CONTACT_0034",
+        "id": "DEMO_ID_0034",
+        "event_num": "DEMO_EVENT_0034",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.170638,
+          30.600487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0035",
+        "phone": "DEMO_CONTACT_0035",
+        "id": "DEMO_ID_0035",
+        "event_num": "DEMO_EVENT_0035",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.147585,
+          30.549573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0036",
+        "phone": "DEMO_CONTACT_0036",
+        "id": "DEMO_ID_0036",
+        "event_num": "DEMO_EVENT_0036",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.302169,
+          30.406437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0037",
+        "phone": "DEMO_CONTACT_0037",
+        "id": "DEMO_ID_0037",
+        "event_num": "DEMO_EVENT_0037",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.366463,
+          30.375508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0038",
+        "phone": "DEMO_CONTACT_0038",
+        "id": "DEMO_ID_0038",
+        "event_num": "DEMO_EVENT_0038",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.310824,
+          30.374441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0039",
+        "phone": "DEMO_CONTACT_0039",
+        "id": "DEMO_ID_0039",
+        "event_num": "DEMO_EVENT_0039",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.181,
+          30.482119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0040",
+        "phone": "DEMO_CONTACT_0040",
+        "id": "DEMO_ID_0040",
+        "event_num": "DEMO_EVENT_0040",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.116706,
+          30.573711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0041",
+        "phone": "DEMO_CONTACT_0041",
+        "id": "DEMO_ID_0041",
+        "event_num": "DEMO_EVENT_0041",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.478977,
+          30.615219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0042",
+        "phone": "DEMO_CONTACT_0042",
+        "id": "DEMO_ID_0042",
+        "event_num": "DEMO_EVENT_0042",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.340498,
+          30.355238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0043",
+        "phone": "DEMO_CONTACT_0043",
+        "id": "DEMO_ID_0043",
+        "event_num": "DEMO_EVENT_0043",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.289805,
+          30.357372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "碰撞",
+        "level": 2,
+        "car_num": "DEMO_VEHICLE_0044",
+        "phone": "DEMO_CONTACT_0044",
+        "id": "DEMO_ID_0044",
+        "event_num": "DEMO_EVENT_0044",
+        "area": "区域1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.313297,
+          30.342434
+        ]
+      }
+    }
+  ]
+}
