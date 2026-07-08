@@ -118,9 +118,9 @@ Create a local `.env` from `.env.example` when Mapbox-based map rendering is ena
 VITE_TOKEN=your_mapbox_public_token_here
 ```
 
-Never commit real tokens.
+Never commit real tokens. If the token is missing, expired, or unauthorized, the app keeps running with a local fallback map preview.
 
-请勿提交真实 token。
+请勿提交真实 token。如果 token 缺失、过期或权限失效，应用会自动使用本地地图预览兜底，避免页面白屏。
 
 ## Data Policy | 数据说明
 
@@ -146,4 +146,5 @@ The team made a solid choice for a smart-city visualization prototype: Vue + Vit
 The main improvement for a production-grade version would be to split large geospatial assets into tiled/vector services, add typed API contracts, and move event processing into a real backend pipeline. For a student/team project, the original direction is practical and technically credible.
 
 如果走向生产级版本，主要改进方向是把大型地理数据拆成瓦片/矢量服务，补充类型化接口契约，并把事件处理迁移到真实后端流水线。作为团队课程/项目经历，这个方向是扎实且有技术含量的。
+
 

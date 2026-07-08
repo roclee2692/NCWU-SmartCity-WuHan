@@ -4,16 +4,35 @@ import bridgeData from '../GIS_DATA/Wuhan_bridge.json'
 import flyPathData from '../GIS_DATA/fly_path.json'
 import flyEndData from '../GIS_DATA/fly_end.json'
 
-const events = eventsData.features ?? []
-const bridges = bridgeData.features ?? []
-const routes = flyPathData.features ?? []
-const destinations = flyEndData.features ?? []
+const currentYear = new Date().getFullYear()
+const mapToken = import.meta.env.VITE_TOKEN?.trim() ?? ''
+const hasMapToken = Boolean(mapToken && !mapToken.includes('your_mapbox'))
 
-const levels = events.reduce((acc, event) => {
-  const level = event.properties?.level ?? 'unknown'
-  acc[level] = (acc[level] ?? 0) + 1
-  return acc
-}, {})
+function getFeatures(collection) {
+  return Array.isArray(collection?.features) ? collection.features : []
+}
+
+function toFiniteNumber(value, fallback = 0) {
+  const number = Number(value)
+  return Number.isFinite(number) ? number : fallback
+}
+
+function shortName(value, fallback = 'NA') {
+  return String(value || fallback).slice(0, 2)
+}
+
+const events = getFeatures(eventsData)
+const bridges = getFeatures(bridgeData)
+const routes = getFeatures(flyPathData)
+const destinations = getFeatures(flyEndData)
+
+const levels = Object.entries(
+  events.reduce((acc, event) => {
+    const level = event.properties?.level ?? 'unknown'
+    acc[level] = (acc[level] ?? 0) + 1
+    return acc
+  }, {}),
+).sort(([a], [b]) => String(a).localeCompare(String(b), 'zh-Hans-CN'))
 
 const eventAreas = events.reduce((acc, event) => {
   const area = event.properties?.area ?? '未分区'
@@ -26,8 +45,16 @@ const topAreas = Object.entries(eventAreas)
   .slice(0, 4)
 
 const outboundTotal = destinations.reduce((sum, item) => {
-  return sum + Number(item.properties?.outboundAmount ?? 0)
+  return sum + toFiniteNumber(item.properties?.outboundAmount)
 }, 0)
+
+const maxEventCount = Math.max(events.length, 1)
+const mapMode = hasMapToken ? 'Mapbox token configured' : 'Local fallback mode'
+const dataWarnings = [
+  events.length === 0 ? 'Event dataset is empty' : '',
+  bridges.length === 0 ? 'Bridge dataset is empty' : '',
+  routes.length === 0 ? 'Flight route dataset is empty' : '',
+].filter(Boolean)
 
 const metrics = [
   { label: '事件点位', value: events.length, unit: 'points' },
@@ -37,7 +64,7 @@ const metrics = [
 ]
 
 const layerStack = [
-  'Mapbox / L7 base map',
+  'Mapbox / L7 base map with local fallback',
   'GeoJSON city layers',
   'Mock API service',
   'Vue dashboard widgets',
@@ -58,12 +85,17 @@ const layerStack = [
       </div>
 
       <div class="status-panel" aria-label="System overview">
-        <span class="status-dot"></span>
+        <span class="status-dot" :class="{ 'status-dot--warn': !hasMapToken }"></span>
         <div>
-          <strong>Prototype Ready</strong>
+          <strong>{{ mapMode }}</strong>
           <span>Mock service + local GeoJSON assets</span>
         </div>
       </div>
+    </section>
+
+    <section v-if="dataWarnings.length" class="notice" aria-label="Data notices">
+      <strong>Data notice</strong>
+      <span>{{ dataWarnings.join(' · ') }}</span>
     </section>
 
     <section class="metrics" aria-label="Data metrics">
@@ -78,19 +110,19 @@ const layerStack = [
       <article class="map-card">
         <div class="map-toolbar">
           <span>Wuhan Operations Canvas</span>
-          <span>{{ new Date().getFullYear() }}</span>
+          <span>{{ currentYear }}</span>
         </div>
 
-        <div class="map-visual">
+        <div class="map-visual" :class="{ 'map-visual--fallback': !hasMapToken }">
           <span class="river river-one"></span>
           <span class="river river-two"></span>
           <span
             v-for="(bridge, index) in bridges"
-            :key="bridge.properties?.name"
+            :key="bridge.properties?.name || index"
             class="bridge-pin"
             :style="{ left: `${18 + index * 15}%`, top: `${55 - index * 6}%` }"
           >
-            {{ bridge.properties?.name?.slice(0, 2) }}
+            {{ shortName(bridge.properties?.name) }}
           </span>
           <span
             v-for="(area, index) in topAreas"
@@ -100,6 +132,9 @@ const layerStack = [
           >
             {{ area[1] }}
           </span>
+          <p v-if="!hasMapToken" class="fallback-label">
+            Mapbox token unavailable. Rendering stable local preview.
+          </p>
           <svg viewBox="0 0 600 320" role="img" aria-label="Flight route preview">
             <path d="M170 168 C240 70 370 68 490 118" />
             <path d="M170 168 C270 210 380 236 520 214" />
@@ -118,13 +153,14 @@ const layerStack = [
 
         <section>
           <h2>Event Levels</h2>
-          <div class="level-bars">
-            <div v-for="(count, level) in levels" :key="level">
+          <div v-if="levels.length" class="level-bars">
+            <div v-for="([level, count]) in levels" :key="level">
               <span>Level {{ level }}</span>
-              <meter :value="count" :max="events.length">{{ count }}</meter>
+              <meter :value="count" :max="maxEventCount">{{ count }}</meter>
               <strong>{{ count }}</strong>
             </div>
           </div>
+          <p v-else class="empty-state">No event levels available.</p>
         </section>
       </aside>
     </section>
